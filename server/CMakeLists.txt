@@ -8,7 +8,7 @@ MESSAGE (STATUS "----- Done -----")
 ADD_SUBDIRECTORY (libplayerdrivers)
 
 # Write out a report on the drivers to be built or not to be built (that is the question)
-WRITE_DRIVER_REPORT ()
+# WRITE_DRIVER_REPORT ()
 
 # Build the server app
 # Extra include dir for the server (why do we need this directoy?)

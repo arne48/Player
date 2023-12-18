@@ -9,7 +9,7 @@ MESSAGE (STATUS "Player will be installed to ${CMAKE_INSTALL_PREFIX}")
 
 # Installation prefix for include files
 STRING (TOLOWER ${PROJECT_NAME} projectNameLower)
-SET (PLAYER_INCLUDE_INSTALL_DIR "include/${projectNameLower}-${PLAYER_MAJOR_VERSION}.${PLAYER_MINOR_VERSION}")
+SET (PLAYER_INCLUDE_INSTALL_DIR "include")
 
 # Let the user take care of this
 SET(LIB_SUFFIX "" CACHE STRING "Suffix for library installation directory")

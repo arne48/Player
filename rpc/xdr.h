@@ -50,6 +50,7 @@
 
 #include <sys/types.h>
 #include "rpc/types.h"
+#include <stdint.h>
 
 #ifndef __const
 #define __const const

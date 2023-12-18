@@ -88,8 +88,8 @@ typedef unsigned short int uint16_t;
 typedef signed int int32_t;
 typedef unsigned int uint32_t;
 //#if __WORDSIZE == 64
-typedef signed long long int int64_t;
-typedef unsigned long long int uint64_t;
+//typedef signed long long int int64_t;
+//typedef unsigned long long int uint64_t;
 //#endif
 
 typedef char* caddr_t;
